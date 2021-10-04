@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../../css/vendor.min.css">
+    <link rel="stylesheet" href="../../css/app.min.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="header-burger">
+                    <span class="header-burger__line"></span>
+                    <span class="header-burger__line"></span>
+                    <span class="header-burger__line"></span>
+                    <span class="header-burger__line"></span>
+                </div>
+                <div class="header-mob">
+                    <div class="header-mob__bg"></div>
+                    <div class="header-mob__wrap">
+                        <ul class="header-mob__list">
+                            <li><a href="catalog.html">каталог</a><span></span>
+                                <ul class="header-mob__submenu">
+                                    <li><a href="">Футболки</a></li>
+                                    <li><a href="">Футболки ПОЛО</a></li>
+                                    <li><a href="">Лонгсливы</a></li>
+                                    <li><a href="">Свитшоты Регланы</a></li>
+                                    <li><a href="">Толстовки Худи</a></li>
+                                    <li><a href="">Анораки Ветровки</a></li>
+                                    <li><a href="">Спортивные Штаны</a></li>
+                                    <li><a href="">Спортивные Костюмы</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sale.html">sale</a></li>
+                            <li><a href="opt.html">опт</a></li>
+                            <li><a href="about.html">о нас</a></li>
+                            <li><a href="delivery.html">доставка и оплата</a></li>
+                            <li><a href="contact.html">контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-top__menu">
+                    <ul class="header-top__list">
+                        <li><a href="catalog.html">каталог</a>
+                            <ul class="header-submenu">
+                                <li><a href="#">Футболки</a></li>
+                                <li><a href="#">Футболки ПОЛО</a></li>
+                                <li><a href="#">Лонгсливы</a></li>
+                                <li><a href="#">Свитшоты Регланы</a></li>
+                                <li><a href="#">Толстовки Худи</a></li>
+                                <li><a href="#">Анораки Ветровки</a></li>
+                                <li><a href="#">Спортивные Штаны</a></li>
+                                <li><a href="#">Спортивные Костюмы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sale.html">sale</a></li>
+                        <li><a href="opt.html">опт</a></li>
+                        <li><a href="about.html">о нас</a></li>
+                        <li><a href="delivery.html">доставка и оплата</a></li>
+                        <li><a href="contact.html">контакты</a></li>
+                    </ul>
+                </div>
+                <div class="header-top__enterMob" data-toggle="modal" data-target="#registration"></div>
+                <div class="header-top__enter">
+                    <span data-toggle="modal" data-target="#enter">войти</span>
+                    <span> / </span>
+                    <span data-toggle="modal" data-target="#registration">зарегистрироваться</span>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="header-logo">
+                    <a href="index.html"></a>
+                </div>
+                <div class="header-search">
+                    <input type="text" placeholder="Поиск по сайту">
+                </div>
+                <div class="header-icon">
+                    <div class="header-like">
+                        <span>8</span>
+                    </div>
+                    <div class="header-basket">
+                        <span>5</span>
+                    </div>
+                </div>
+                <div class="header-phone">
+                    <div class="header-phone__click">
+                        <a class="header-phone__main" href="tel:0683460475">068 346 04 75</a>
+                    </div>
+                    <ul class="header-phone__list">
+                        <li><a href="tel:0683460475">068 346 04 75</a></li>
+                        <li><a href="tel:0683460475">068 346 04 75</a></li>
+                        <li><a href="tel:0683460475">068 346 04 75</a></li>
+                        <li><a href="tel:0683460475">068 346 04 75</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="catalog-wrap">
+            <nav aria-label="breadcrumb">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Sale</li>
+                </ul>
+            </nav>
+            <div class="catalog">
+                <div class="catalog-content sale-content">
+                    <div>
+                        <div class="catalog-row">
+                            <div class="catalog-title page-title">
+                                <span>Sale</span>
+                                <div class="catalog-select">
+                                    <div class="catalog-select__head">
+                                        <span>Сортировать:</span>
+                                        <input type="hidden" name="type_category" value="">
+                                        <div class="catalog-select__current input"><span>По популярности</span></div>
+                                    </div>
+                                    <div class="catalog-select__wrap">
+                                        <ul class="catalog-select__dropdown">
+                                            <li>
+                                                <span>По популярности</span>
+                                            </li>
+                                            <li>
+                                                <span>Сначала дешевле</span>
+                                            </li>
+                                            <li>
+                                                <span>Сначала дороже</span>
+                                            </li>
+                                            <li>
+                                                <span>Акционные</span>
+                                            </li>
+                                            <li>
+                                                <span>Новинки</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-items">
+                            <div class="product">
+                                <div class="product-Mobmenu">
+                                    <div id="one"></div>
+                                    <div id="two"></div>
+                                    <div id="three"></div>
+                                </div>
+                                <div class="product-block">
+                                    <div class="product-item">
+                                        <div class="product-img" >
+                                            <a href="product-card.html"><img src="../img/gallery1.png" alt=""></a>
+                                            <div class="product-img__colors">
+                                                <img class="product-img__hide" id="redPhoto" src="../img/gallery1.png" alt="">
+                                                <img class="product-img__hide" id="greyPhoto" src="../img/gallery5.png" alt="">
+                                                <img class="product-img__hide" id="bluePhoto" src="../img/gallery8.png" alt="">
+                                            </div>
+                                            <div class="product-Mobslider">
+                                                <a href="product-card.html"><img src="../img/gallery5.png" alt=""></a>
+                                                <a href="product-card.html"> <img src="../img/gallery1.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <a href="product-card.html">Спортивные штаны TM Hector 7903 Спортивные штаны TM Hector 7903</a>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>420</span>
+                                            <span> грн.</span>
+                                        </div>
+                                        <div class="product-info product-flex">
+                                            <div class="product-star">
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item"></span>
+                                                <span class="product-star__item"></span>
+                                            </div>
+                                            <div class="product-review">
+                                                <a href="">10 <span>отзывов</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info__items product-colors product-colors__over">
+                                                <div class="product-color " id="red"><span class="red"></span></div>
+                                                <div class="product-color " id="grey"> <span class="grey"></span></div>
+                                                <div class="product-color " id="blue"> <span class="blue"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="color-hidden"></div>
+                                            </div>
+                                            <div class="product-info__items">
+                                                <div class="product-like">
+
+                                                </div>
+                                                <div class="product-basket">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item">
+                                        <div class="product-img" >
+                                            <a href="product-card.html"><img src="../img/product-small.png" alt=""></a>
+                                            <div class="product-img__colors">
+                                                <img class="product-img__hide" src="../img/gallery1.png" alt="">
+                                                <img class="product-img__hide"  src="../img/gallery5.png" alt="">
+                                                <img class="product-img__hide"  src="../img/gallery8.png" alt="">
+                                            </div>
+                                            <div class="product-Mobslider">
+                                                <a href="product-card.html"><img src="../img/gallery5.png" alt=""></a>
+                                                <a href="product-card.html"><img src="../img/gallery1.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <a href="product-card.html">Спортивные штаны TM Hector 7903 Спортивные штаны TM Hector 7903</a>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>420</span>
+                                            <span> грн.</span>
+                                        </div>
+                                        <div class="product-info product-flex">
+                                            <div class="product-star">
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item"></span>
+                                                <span class="product-star__item"></span>
+                                            </div>
+                                            <div class="product-review">
+                                                <a href="">10 <span>отзывов</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info__items product-colors product-colors__over">
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="color-hidden"></div>
+                                            </div>
+                                            <div class="product-info__items">
+                                                <div class="product-like">
+                                                </div>
+                                                <div class="product-basket">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item">
+                                        <div class="product-img" >
+                                            <a href="product-card.html"><img src="../img/product-small.png" alt=""></a>
+                                            <div class="product-img__colors">
+                                                <img class="product-img__hide" src="../img/gallery1.png" alt="">
+                                                <img class="product-img__hide"  src="../img/gallery5.png" alt="">
+                                                <img class="product-img__hide"  src="../img/gallery8.png" alt="">
+                                            </div>
+                                            <div class="product-Mobslider">
+                                                <a href="product-card.html"><img src="../img/gallery5.png" alt=""></a>
+                                                <a href="product-card.html"><img src="../img/gallery1.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <a href="product-card.html">Спортивные штаны TM Hector 7903 Спортивные штаны TM Hector 7903</a>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>420</span>
+                                            <span> грн.</span>
+                                        </div>
+                                        <div class="product-info product-flex">
+                                            <div class="product-star">
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item"></span>
+                                                <span class="product-star__item"></span>
+                                            </div>
+                                            <div class="product-review">
+                                                <a href="">10 <span>отзывов</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info__items product-colors product-colors__over">
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="color-hidden"></div>
+                                            </div>
+                                            <div class="product-info__items">
+                                                <div class="product-like">
+                                                </div>
+                                                <div class="product-basket">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item">
+                                        <div class="product-img" >
+                                            <a href="product-card.html"><img src="../img/product-small.png" alt=""></a>
+                                            <div class="product-img__colors">
+                                                <img class="product-img__hide" src="../img/gallery1.png" alt="">
+                                                <img class="product-img__hide"  src="../img/gallery5.png" alt="">
+                                                <img class="product-img__hide"  src="../img/gallery8.png" alt="">
+                                            </div>
+                                            <div class="product-Mobslider">
+                                                <a href="product-card.html"><img src="../img/gallery5.png" alt=""></a>
+                                                <a href="product-card.html"><img src="../img/gallery1.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <a href="product-card.html">Спортивные штаны TM Hector 7903 Спортивные штаны TM Hector 7903</a>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>420</span>
+                                            <span> грн.</span>
+                                        </div>
+                                        <div class="product-info product-flex">
+                                            <div class="product-star">
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item"></span>
+                                                <span class="product-star__item"></span>
+                                            </div>
+                                            <div class="product-review">
+                                                <a href="">10 <span>отзывов</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info__items product-colors product-colors__over">
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="color-hidden"></div>
+                                            </div>
+                                            <div class="product-info__items">
+                                                <div class="product-like">
+                                                </div>
+                                                <div class="product-basket">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item">
+                                        <div class="product-img" >
+                                            <a href="product-card.html"><img src="../img/product-small.png" alt=""></a>
+                                            <div class="product-img__colors">
+                                                <img class="product-img__hide" src="../img/gallery1.png" alt="">
+                                                <img class="product-img__hide"  src="../img/gallery5.png" alt="">
+                                                <img class="product-img__hide"  src="../img/gallery8.png" alt="">
+                                            </div>
+                                            <div class="product-Mobslider">
+                                                <a href="product-card.html"><img src="../img/gallery5.png" alt=""></a>
+                                                <a href="product-card.html"><img src="../img/gallery1.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <a href="product-card.html">Спортивные штаны TM Hector 7903 Спортивные штаны TM Hector 7903</a>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>420</span>
+                                            <span> грн.</span>
+                                        </div>
+                                        <div class="product-info product-flex">
+                                            <div class="product-star">
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item"></span>
+                                                <span class="product-star__item"></span>
+                                            </div>
+                                            <div class="product-review">
+                                                <a href="">10 <span>отзывов</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info__items product-colors product-colors__over">
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="color-hidden"></div>
+                                            </div>
+                                            <div class="product-info__items">
+                                                <div class="product-like">
+                                                </div>
+                                                <div class="product-basket">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item">
+                                        <div class="product-img" >
+                                            <a href="product-card.html"><img src="../img/product-small.png" alt=""></a>
+                                            <div class="product-img__colors">
+                                                <img class="product-img__hide" src="../img/gallery1.png" alt="">
+                                                <img class="product-img__hide"  src="../img/gallery5.png" alt="">
+                                                <img class="product-img__hide"  src="../img/gallery8.png" alt="">
+                                            </div>
+                                            <div class="product-Mobslider">
+                                                <a href="product-card.html"><img src="../img/gallery5.png" alt=""></a>
+                                                <a href="product-card.html"><img src="../img/gallery1.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <a href="product-card.html">Спортивные штаны TM Hector 7903 Спортивные штаны TM Hector 7903</a>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>420</span>
+                                            <span> грн.</span>
+                                        </div>
+                                        <div class="product-info product-flex">
+                                            <div class="product-star">
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item"></span>
+                                                <span class="product-star__item"></span>
+                                            </div>
+                                            <div class="product-review">
+                                                <a href="">10 <span>отзывов</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info__items product-colors product-colors__over">
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="color-hidden"></div>
+                                            </div>
+                                            <div class="product-info__items">
+                                                <div class="product-like">
+                                                </div>
+                                                <div class="product-basket">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item">
+                                        <div class="product-img" >
+                                            <a href="product-card.html"><img src="../img/product-small.png" alt=""></a>
+                                            <div class="product-img__colors">
+                                                <img class="product-img__hide" src="../img/gallery1.png" alt="">
+                                                <img class="product-img__hide"  src="../img/gallery5.png" alt="">
+                                                <img class="product-img__hide"  src="../img/gallery8.png" alt="">
+                                            </div>
+                                            <div class="product-Mobslider">
+                                                <a href="product-card.html"><img src="../img/gallery5.png" alt=""></a>
+                                                <a href="product-card.html"><img src="../img/gallery1.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <a href="product-card.html">Спортивные штаны TM Hector 7903 Спортивные штаны TM Hector 7903</a>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>420</span>
+                                            <span> грн.</span>
+                                        </div>
+                                        <div class="product-info product-flex">
+                                            <div class="product-star">
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item checked"></span>
+                                                <span class="product-star__item"></span>
+                                                <span class="product-star__item"></span>
+                                            </div>
+                                            <div class="product-review">
+                                                <a href="">10 <span>отзывов</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info__items product-colors product-colors__over">
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="product-color "> <span class="black"></span></div>
+                                                <div class="product-color "> <span class="grey"></span></div>
+                                                <div class="color-hidden"></div>
+                                            </div>
+                                            <div class="product-info__items">
+                                                <div class="product-like">
+                                                </div>
+                                                <div class="product-basket">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination-wrap">
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                                <li class="page-item active"><span class="page-link">1<span class="sr-only">(current)</span></span></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link" href="#">15</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-item">
+                    <div class="footer-logo">
+                        <a href="index.html"></a>
+                    </div>
+                    <div class="footer-social">
+                        <div class="footer-social__item">
+                            <a href="#"></a>
+                        </div>
+                        <div class="footer-social__item">
+                            <a href="#"></a>
+                        </div>
+                        <div class="footer-social__item">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <p>информация</p>
+                    <ul class="footer-list">
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="opt.html">Купить одежду оптом</a></li>
+                        <li><a href="delivery.html">Доставка и оплата одежды</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <p>информация</p>
+                    <ul class="footer-list">
+                        <li><a href="cabinet.html">Личный кабинет</a></li>
+                        <li><a href="">История заказов</a></li>
+                        <li><a href="">Закладки</a></li>
+                        <li><a href="">Возврат товара</a></li>
+                        <li><a href="">Обратная связь</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <p>подпишитесь на новости</p>
+                    <form action="" class="footer-subs inputs">
+                        <input class="inputs-text" type="text" placeholder="Email">
+                        <input class="inputs-button" type="submit" value="отправить">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal-window">
+
+    // modal-registration
+    <div class="modal fade" id="registration" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title">Регистрация</h5>
+                    <form action="" class="inputs modal-inputs">
+                        <input class="inputs-text" type="text" placeholder="Ваш">
+                        <input class="inputs-text" type="text" placeholder="Ваш e-mail">
+                        <input class="inputs-text" type="password" placeholder="Пароль">
+                        <input class="inputs-text" type="password" placeholder="Повторить пароль">
+                        <div class="modal-enterMob" >
+                            <span data-toggle="modal" data-target="#enter">Войти</span>
+                        </div>
+                        <input class="inputs-button" type="submit" value="зарегистрироваться">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    //modal-enter
+    <div class="modal fade" id="enter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title">Вход</h5>
+                    <form action="" class="inputs modal-inputs">
+                        <input class="inputs-text" type="text" placeholder="Ваш e-mail" required>
+                        <input class="inputs-text" type="password" placeholder="Пароль" required>
+                        <span class="modal-inputs__forgot" data-toggle="modal" data-target="#password">Забыли пароль?</span>
+                        <div class="filter-item">
+                            <input type="checkbox" name="producer" id="check1">
+                            <label for="check1">Запомнить меня</label>
+                        </div>
+                        <input class="inputs-button" type="submit" value="Войти" >
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    // modal-registration-with-promocode
+    <div class="modal fade" id="registration-promocode" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title">Регистрация</h5>
+                    <form action="" class="inputs modal-inputs">
+                        <input class="inputs-text" type="text" placeholder="Ваш">
+                        <input class="inputs-text" type="text" placeholder="Ваш e-mail">
+                        <input class="inputs-text" type="password" placeholder="Пароль">
+                        <input class="inputs-text" type="password" placeholder="Повторить пароль">
+                        <input class="inputs-text" type="text" placeholder="Промо код">
+                        <input class="inputs-button" type="submit" value="зарегистрироваться">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    // modal-password
+    <div class="modal fade" id="password" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title">напомнить пароль</h5>
+                    <form action="" class="inputs modal-inputs">
+                        <input class="inputs-text" type="text" placeholder="Ваш e-mail">
+                        <p>Введите адрес почты, который Вы указывали при регистрации, на этот адрес отправим пароль</p>
+                        <input class="inputs-button" type="submit" value="напомнить пароль">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    //modal thanks
+    <div class="modal fade" id="thanks" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title">спасибо за регистрацию</h5>
+                    <p>Данные о регистрации отправлены вам на e-mail</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../../js/vendor.min.js"></script>
+<script type="text/javascript" src="../../js/app.min.js"></script>
+
+</html>

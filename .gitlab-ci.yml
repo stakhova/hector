@@ -1,0 +1,6 @@
+deploy-prod:
+  script:
+    - ssh root@95.46.99.177 "cd /var/www/dev/hector-front && git fetch && git pull && chown -R www-data:www-data *"
+#    - ssh root@95.46.99.177 "cd /var/www/dev/hector-front && gulp build"
+  only:
+    - master
